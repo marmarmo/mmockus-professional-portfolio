@@ -2,12 +2,11 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { useState, useEffect } from "react";
-import logo from "../assets/images/logo.png";
+import marmologo from "../assets/images/Logos/marmologo.png";
+import "./Styles/Header.css";
 
 
-
-export default function NavBar({ activeLink, setActiveLink}) {
- 
+export default function NavBar({ activeLink, setActiveLink }) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -17,11 +16,11 @@ export default function NavBar({ activeLink, setActiveLink}) {
       } else {
         setScrolled(false);
       }
-    }
+    };
 
-    window.addEventListener('scroll', onScroll);
+    window.addEventListener("scroll", onScroll);
 
-    return () => window.removeEventListener('scroll', onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   const onUpdateActiveLink = (value) => {
@@ -29,7 +28,6 @@ export default function NavBar({ activeLink, setActiveLink}) {
   };
 
   return (
-  
     <Navbar
       expand="lg"
       bg="dark"
@@ -37,11 +35,11 @@ export default function NavBar({ activeLink, setActiveLink}) {
     >
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} alt="logo" width={100}/>
+          <img src={marmologo} alt="logo" width={100} />
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className='navbar-toggler-icon'></span>
+          <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

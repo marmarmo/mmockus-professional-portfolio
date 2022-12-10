@@ -5,10 +5,11 @@ import {
   CDBContainer,
   CDBBox,
 } from "cdbreact";
-import logo from "../assets/images/logo.png";
-import github from "../assets/images/github-mark.png";
-import mail from "../assets/images/envelope.png";
-import linkedin from "../assets/images/linkedin.png";
+// import logo from "../assets/images/logo.png";
+import github from "../assets/images/Logos/github-mark.png";
+import mail from "../assets/images/Logos/envelope.png";
+import linkedin from "../assets/images/Logos/linkedin.png";
+import "./Styles/Footer.css";
 
 
 export default function Footer () {

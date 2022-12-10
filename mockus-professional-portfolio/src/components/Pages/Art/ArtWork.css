@@ -1,0 +1,9 @@
+.carousel {
+	width:640px;
+	height:360px;
+	display: flex;
+	flex: column;
+	justify-content: center;
+	align-items: center;
+}
+
