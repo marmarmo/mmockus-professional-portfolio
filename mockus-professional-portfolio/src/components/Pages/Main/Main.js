@@ -1,13 +1,13 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
-// import profpic from "../src/assets/images/Headshot/img1";
+
 
 export default function ImgOverlayExample() {
   return (
     <>
     <Card className="bg-dark text-white">
       <div>
-      {/* <Card.Img src={profpic} alt="Card image" width={100} /> */}
+      <Card.Img  src="/images/Headshot/img1.png" alt="Ceramic Alien" width={100} />
       </div>
       <Card.ImgOverlay>
         <Card.Title style={{fontSize: "100px", fontWeight: "bold"}}>Marla Mockus</Card.Title>
