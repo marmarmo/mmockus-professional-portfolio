@@ -1,30 +1,12 @@
+import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-// import { useState } from "react";
 import "./ArtWork.css";
-// import Accordion from 'react-bootstrap/Accordion';
+
 
 
 
 
 export default function artWorks() {
-//   const [works, setWorks] = useState(works[0]);
-
-//   const displayNextWork = () => {
-//     if (works.index < works.length - 1) {
-//       setWorks(works[works.index + 1]);
-//       return;
-//     } else {
-//       setWorks(works[0]);
-//       return;
-//     }
-//   };
-//   const displayPreviousWork = () => {
-//     if (works.index > 0) {
-//       setWorks(works[works.index - 1]);
-//     } else {
-//       setWorks(works[works.length - 1]);
-//     }
-  // };
 
   return (
     <>

@@ -2,7 +2,7 @@ import React from "react";
 import Card from 'react-bootstrap/Card';
 
 
-export default function ImgOverlayExample() {
+export default function profilePage() {
   return (
     <>
     <Card className="bg-dark text-white">

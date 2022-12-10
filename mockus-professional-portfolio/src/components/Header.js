@@ -43,8 +43,9 @@ export default function NavBar({ activeLink, setActiveLink }) {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
+
             <Nav.Link
-              href="#home"
+              href="/"
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
               }
@@ -52,8 +53,9 @@ export default function NavBar({ activeLink, setActiveLink }) {
             >
               Home
             </Nav.Link>
+
             <Nav.Link
-              href="#Portfolio"
+              href="/Profile"
               className={
                 activeLink === "portfolio"
                   ? "active navbar-link"
@@ -63,8 +65,21 @@ export default function NavBar({ activeLink, setActiveLink }) {
             >
               Portfolio
             </Nav.Link>
+
             <Nav.Link
-              href="#Skills"
+              href="/Portfolio"
+              className={
+                activeLink === "portfolio"
+                  ? "active navbar-link"
+                  : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("portfolio")}
+            >
+              Portfolio
+            </Nav.Link>
+
+            <Nav.Link
+              href="/Skills"
               className={
                 activeLink === "skills" ? "active navbar-link" : "navbar-link"
               }
@@ -73,7 +88,7 @@ export default function NavBar({ activeLink, setActiveLink }) {
               Skills
             </Nav.Link>
             <Nav.Link
-              href="#ArtWork"
+              href="/ArtWork"
               className={
                 activeLink === "art" ? "active navbar-link" : "navbar-link"
               }
@@ -81,8 +96,9 @@ export default function NavBar({ activeLink, setActiveLink }) {
             >
               Art
             </Nav.Link>
+
             <Nav.Link
-              href="#PodCast"
+              href="/PodCast"
               className={
                 activeLink === "podcast" ? "active navbar-link" : "navbar-link"
               }
