@@ -1,9 +1,6 @@
 .carousel {
-	width:640px;
-	height:360px;
-	display: flex;
-	flex: column;
-	justify-content: center;
-	align-items: center;
-}
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+  }
 

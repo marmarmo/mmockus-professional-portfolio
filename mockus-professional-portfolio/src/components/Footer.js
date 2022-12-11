@@ -1,14 +1,14 @@
 import React from "react";
 import {
   CDBFooter,
-  CDBFooterLink,
+  // CDBFooterLink,
   CDBContainer,
   CDBBox,
 } from "cdbreact";
 // import logo from "../assets/images/logo.png";
-import github from "../assets/images/Logos/github-mark.png";
-import mail from "../assets/images/Logos/envelope.png";
-import linkedin from "../assets/images/Logos/linkedin.png";
+// import github from "../assets/images/Logos/github-mark.png";
+// import mail from "../assets/images/Logos/envelope.png";
+// import linkedin from "../assets/images/Logos/linkedin.png";
 import "./Styles/Footer.css";
 
 
@@ -16,25 +16,24 @@ export default function Footer () {
   return (
     <>
       <CDBContainer>
-        <CDBFooter className="footerEl">
+        <CDBFooter className="footerEl fixed-bottom">
           <CDBBox
-          
             display="flex"
             flex="column"
             className="mx-auto py-6"
             style={{ width: "90%" }}
           >
-            <CDBBox
+            {/* <CDBBox
               display="flex"
               justifyContent="between"
               className="flex-wrap"
             >
               <CDBBox alignSelf="center">
                 <a href="/" className="d-flex align-items-center p-0 text-dark">
-                  {/* <img alt="logo" src={logo} width="60px" /> */}
+                  <img alt="logo" src={logo} width="60px" />
                   <span className="ml-3 h5 font-weight-bold">Find me...</span>
                 </a>
-                {/* <CDBBox className="mt-5" display="flex">
+                <CDBBox className="mt-5" display="flex">
                   <CDBBtn flat color="dark" className="p-2">
                     <CDBIcon fab icon="facebook-f" />
                   </CDBBtn>
@@ -44,10 +43,10 @@ export default function Footer () {
                   <CDBBtn flat color="dark" className="p-2">
                     <CDBIcon fab icon="instagram" />
                   </CDBBtn>
-                </CDBBox> */}
+                </CDBBox>
                 <div className="social-icons">
           {/* find sourced social media icons to add */}
-          <a href="https://www.linkedin.com/in/marlamockus/">
+          {/* <a href="https://www.linkedin.com/in/marlamockus/">
                 <img src={linkedin} alt="icon" width={50} />
               </a>
               <a href="https://github.com/MMockus15">
@@ -115,7 +114,7 @@ export default function Footer () {
                   <CDBFooterLink href="/">Sign In</CDBFooterLink>
                 </CDBBox>
               </CDBBox>
-            </CDBBox>
+            </CDBBox> */} 
             <small className="text-center mt-5">
               &copy; 2022. Marla Mockus.
             </small>

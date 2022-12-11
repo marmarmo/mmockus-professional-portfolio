@@ -10,10 +10,11 @@ export default function artWorks() {
 
   return (
     <>
-    <Carousel className="photo-carousel">
+    <Carousel className="photo-carousel carousel slide carousel-fade" data-mdb-ride="carousel">
+      
 
  {/* Sculpture Ceramics */}
- <Carousel.Item interval={2000}>
+ <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/alien.jpg"
@@ -25,7 +26,7 @@ export default function artWorks() {
         </Carousel.Caption>
       </Carousel.Item>
 
- <Carousel.Item interval={2000}>
+ <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/atlantian.jpg"
@@ -38,7 +39,7 @@ export default function artWorks() {
       </Carousel.Item>
 
       {/* Bunny Ceramics */}
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/bunnyhead.jpeg"
@@ -50,7 +51,7 @@ export default function artWorks() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/bunny.jpeg"
@@ -62,7 +63,7 @@ export default function artWorks() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/bunnybowl.jpeg"
@@ -76,7 +77,7 @@ export default function artWorks() {
 
 
     {/* Heads Ceramics */}
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/headseggs.jpeg"
@@ -88,7 +89,7 @@ export default function artWorks() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/headmr.jpeg"
@@ -100,7 +101,7 @@ export default function artWorks() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/headstwo.jpeg"
@@ -112,7 +113,7 @@ export default function artWorks() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/heads.jpeg"
@@ -124,7 +125,7 @@ export default function artWorks() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/headsglazed.jpg"
@@ -137,7 +138,7 @@ export default function artWorks() {
       </Carousel.Item>
 
     {/* Brains Ceramics */}
-    <Carousel.Item interval={2000}>
+    <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/brainprocess.jpeg"
@@ -151,7 +152,7 @@ export default function artWorks() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/brainarmy.jpeg"
@@ -165,7 +166,7 @@ export default function artWorks() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/brains.jpeg"
@@ -180,7 +181,7 @@ export default function artWorks() {
       </Carousel.Item>
 
       {/* Squid Ceramics */}
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/lady.jpeg"
@@ -194,7 +195,7 @@ export default function artWorks() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/squid.jpeg"
@@ -208,7 +209,7 @@ export default function artWorks() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/squidme.jpeg"
@@ -223,7 +224,7 @@ export default function artWorks() {
       </Carousel.Item>
 
       {/* Ceramic throwing */}
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/images/Ceramics/wheel.jpeg"

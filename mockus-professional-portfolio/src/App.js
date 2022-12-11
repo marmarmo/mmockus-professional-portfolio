@@ -24,6 +24,7 @@ function App() {
           <Route path="/Skills" element={<Skills />} />
           <Route path="/ArtWork" element={<ArtWork />} />
           <Route path="/Podcast" element={<Podcast />} />
+
         </Routes>
         {/* <Main />
         <Portfolio />

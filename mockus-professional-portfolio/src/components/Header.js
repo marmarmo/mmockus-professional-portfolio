@@ -4,6 +4,9 @@ import Nav from "react-bootstrap/Nav";
 import { useState, useEffect } from "react";
 import marmologo from "../assets/images/Logos/marmologo.png";
 import "./Styles/Header.css";
+import github from "../assets/images/Logos/github-mark.png";
+import mail from "../assets/images/Logos/envelope.png";
+import linkedin from "../assets/images/Logos/linkedin.png";
 
 
 export default function NavBar({ activeLink, setActiveLink }) {
@@ -107,6 +110,18 @@ export default function NavBar({ activeLink, setActiveLink }) {
               Podcast
             </Nav.Link>
           </Nav>
+          <div className="social-icons">
+          {/* find sourced social media icons to add */}
+          <a href="https://www.linkedin.com/in/marlamockus/">
+                <img src={linkedin} alt="icon" width={50} />
+              </a>
+              <a href="https://github.com/MMockus15">
+                <img src={github} alt="icon" width={50} />
+              </a>
+              <a href="mailto:marlamockus@gmail.com">
+                <img src={mail} alt="icon" width={50}/>
+              </a>
+            </div>
           <span className="navbar-text">
             <button className="vvd" onClick={() => console.log("connect")}>
               <span>Let's Connect</span>
