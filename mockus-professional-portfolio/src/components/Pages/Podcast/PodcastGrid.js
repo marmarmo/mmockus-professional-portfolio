@@ -46,6 +46,12 @@ var columnDefs = [
     headerName: "Episode",
     field: "mp3",
 	flex: 2,
+	autoHeight: true,
+	cellRenderer: ((params)=>`
+      <audio controls preload="none"
+          style="height:2em; vertical-align: middle;">
+          <source src=${params.value} type="audio/mpeg" />
+      </audio>`)
   },
 ];
 
@@ -53,7 +59,7 @@ var columnDefs = [
   return (
     <div
       className="ag-theme-alpine"
-      style={{ height: props.height, width: props.width }}
+      style={{ height: props.height, width: props.width}}
     >
       <AgGridReact 
 	  rowData={rowData}
