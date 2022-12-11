@@ -60,13 +60,13 @@ export default function NavBar({ activeLink, setActiveLink }) {
             <Nav.Link
               href="/Profile"
               className={
-                activeLink === "portfolio"
+                activeLink === "profile"
                   ? "active navbar-link"
                   : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("portfolio")}
             >
-              Portfolio
+              Profile
             </Nav.Link>
 
             <Nav.Link
