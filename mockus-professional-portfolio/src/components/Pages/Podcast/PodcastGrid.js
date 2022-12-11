@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { AgGridReact } from "ag-grid-react";
+import "./Podcast.css";
 
 import "ag-grid-community/dist/styles/ag-grid.css";
 import "ag-grid-community/dist/styles/ag-theme-alpine.css";
@@ -59,7 +60,7 @@ var columnDefs = [
   return (
     <div
       className="ag-theme-alpine"
-      style={{ height: props.height, width: props.width}}
+      style={{ height: props.height, width: props.width, fontFamily: "AlexandriaFLF", fontSize: "1.1em"}}
     >
       <AgGridReact 
 	  rowData={rowData}

@@ -1,3 +1,9 @@
+
+
 .ag-theme-alpine{
-background-color: var(--peach);
+--ag-foreground-color: black;
+--ag-background-color: var(--tan);
+--ag-odd-row-background-color: rgb(0, 0, 0, 0.15);
+--ag-header-foreground-color: black;
+--ag-header-background-color: var(--grey);
 }

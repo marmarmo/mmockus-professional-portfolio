@@ -1,4 +1,5 @@
 import {PodcastGrid} from "./PodcastGrid";
+import "./Podcast.css";
 
 function PodcastEl() {
   return (
