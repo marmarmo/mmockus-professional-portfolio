@@ -1,0 +1,36 @@
+.card-img-overlay {
+	align-items: center;
+	top: 57px;
+  }
+  
+  .card-title {
+	  color: var(--orange);
+	  font-weight: bold;
+  }
+  
+  .card-text {
+	  /* box-shadow: inset 0 0 0 0 #54b3d6; */
+	  color: var(--white);
+	  padding: 0 0.25rem;
+	  margin: 0 -0.25rem;
+	  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  
+  /* Presentational styles */
+  .card-text:hover {
+	  font-family: "AlexandriaFLF";
+	  font-weight: 700;
+	  line-height: 2;
+	  text-decoration: none;
+	  background-color: black;
+  }
+  
+  .card-text:hover::before {
+	  display: grid;
+	  height: 100vh;
+	  place-items: center;
+  }
+  
+
+

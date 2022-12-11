@@ -1,5 +1,6 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
+import "./Profile.css";
 
 
 export default function profilePage() {

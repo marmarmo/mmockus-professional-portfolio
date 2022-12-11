@@ -27,4 +27,5 @@ body {
 
 .flex.center {
   justify-content: center;
+  text-align: center;
 }
