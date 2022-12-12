@@ -11,8 +11,8 @@
   .card-text {
 	  /* box-shadow: inset 0 0 0 0 #54b3d6; */
 	  color: var(--white);
-	  padding: 0 0.25rem;
-	  margin: 0 -0.25rem;
+	  padding: 0 3rem;
+	  margin: 4rem;
 	  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
   

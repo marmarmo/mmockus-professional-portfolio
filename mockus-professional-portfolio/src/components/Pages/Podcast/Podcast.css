@@ -6,6 +6,13 @@
 --ag-odd-row-background-color: rgb(0, 0, 0, 0.15);
 --ag-header-foreground-color: black;
 --ag-header-background-color: var(--grey);
-margin-right: 45px;
-padding: 45px;
+/* margin-right: 45px; */
+padding-bottom: 45px;
+padding-left: 45px;
+padding-right: 45px;
+}
+
+h1 {
+	padding: 20px;
+	margin: 5px;
 }
