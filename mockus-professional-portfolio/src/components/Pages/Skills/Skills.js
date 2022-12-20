@@ -36,7 +36,7 @@ export default function Skills() {
   const { size, ...rest } = useSpring({
     ref: springApi,
     config: config.stiff,
-    from: { size: "20%", background: "grey", text: "white" },
+    from: { size: "20%", background: "black", text: "white" },
     to: {
       size: open ? "100%" : "20%",
       background: open ? "white" : "black",

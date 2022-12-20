@@ -30,7 +30,7 @@ export default function artWorks() {
         <img
           className="d-block w-100"
           src="/images/Ceramics/atlantian.jpg"
-          alt="Ceramic Alien"
+          alt="Ceramic Atlantian"
         />
         <Carousel.Caption>
           <h3>Atlantian Child</h3>
@@ -71,7 +71,7 @@ export default function artWorks() {
         />
         <Carousel.Caption>
           <h3>Bunny Before Firing</h3>
-          <p>is is the completed bunny bowl before she went into the kiln for the first firing.</p>
+          <p>This is the completed bunny bowl before she went into the kiln for the first firing.</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -185,7 +185,7 @@ export default function artWorks() {
         <img
           className="d-block w-100"
           src="/images/Ceramics/lady.jpeg"
-          alt="Brain Army"
+          alt="Squid Lady"
         />
         <Carousel.Caption>
           <h3>The Squid Lady</h3>
