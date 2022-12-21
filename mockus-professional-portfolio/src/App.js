@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Header activeLink={activeLink} setActiveLink={setActiveLink} />
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Portfolio" element={<Portfolio />} />
           <Route path="/Skills" element={<Skills />} />

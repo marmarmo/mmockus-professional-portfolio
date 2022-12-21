@@ -148,6 +148,14 @@ const ceramics = [
   },
   {
     index: 15,
+    imagePath: wheel,
+    alt: "A ceramic wheel.",
+    title: "Throwing",
+    description:
+	"To create most of my sculptures, the bodies either start on the wheel, or I coil build the clay. The smaller sculptures, like the heads and bunny are easiest when started on the wheel to give them a nice sturdy base to work off of.",
+  },
+  {
+    index: 16,
     imagePath: cups,
     alt: "Image of a ceramic mugs.",
     title: "Ceramic Mugs",

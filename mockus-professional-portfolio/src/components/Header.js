@@ -134,9 +134,17 @@ export default function NavBar({ activeLink, setActiveLink }) {
               </a>
             </div>
           <span className="navbar-text">
+            <a
+              href="/Contact"
+              // className={
+              //   activeLink === "podcast" ? "active navbar-link" : "navbar-link"
+              // }
+              
+            >
             <button className="vvd" onClick={() => onUpdateActiveLink("connect")}>
-              <span>Let's Connect</span>
+              Let's Connect
             </button>
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>

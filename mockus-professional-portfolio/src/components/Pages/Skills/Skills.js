@@ -27,7 +27,7 @@ import {
 import data from "./Data";
 import styles from "./styles.module.css";
 import "./Skills.css";
-import TypeIt from "react-typing-effect";
+import ReactTypingEffect from "react-typing-effect";
 
 export default function Skills() {
   const [open, set] = useState(false);
@@ -54,7 +54,7 @@ export default function Skills() {
   // This will orchestrate the two animations above, comment the last arg and it creates a sequence
   useChain(open ? [springApi, transApi] : [transApi, springApi], [
     0,
-    open ? 0.1 : 0.6,
+    open ? 0.1 : 0.1,
   ]);
 
   return (
@@ -62,28 +62,20 @@ export default function Skills() {
       <animated.div
         style={{ ...rest, width: size, height: size }}
         className={styles.container}
-        onClick={() => set((open) => !open)}
+        
       >
+        <p onClick={() => set((open) => !open)}>x</p>
         {transition((style, item) => (
           <animated.div
             className={styles.item}
             style={{ ...style, background: item.css }}
           />
         ))}
-        <div className="skillsText">
+        {open ? (<div className="skillsText">
           <div>
-            <TypeIt
+            <ReactTypingEffect
               element={"h3"}
-              getBeforeInit={(instance) => {
-                instance
-                  .type("My Skills...")
-                  .pause(750)
-                  .delete(2)
-
-                  .pause(500)
-                  .type("ex!");
-                return instance;
-              }}
+              text={'My Skills...'}
             />
           </div>
           <div>
@@ -121,7 +113,7 @@ export default function Skills() {
               Git <FaGithubAlt />
             </p>
           </div>
-        </div>
+        </div>): (<button style={{backgroundColor: 'white', color: 'blue'}} onClick={() => set((open) => !open)}>click me</button>)}
       </animated.div>
     </div>
   );
