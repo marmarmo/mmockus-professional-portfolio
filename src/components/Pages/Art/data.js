@@ -1,23 +1,23 @@
-import alien from "./images/Ceramics/alien.jpg";
-import atlantian from "./images/Ceramics/atlantian.jpg";
-import bunnyHead from "./images/Ceramics/bunnyhead.jpeg";
-import bunny from "./images/Ceramics/bunny.jpeg";
-import bunnyBowl from "./images/Ceramics/bunnybowl.jpeg";
-import headsEggs from "./images/Ceramics/headseggs.jpeg";
-import headsMr from "./images/Ceramics/headmr.jpeg";
-import headsTwo from "./images/Ceramics/headstwo.jpeg";
-import heads from "./images/Ceramics/heads.jpeg";
-import headsGlazed from "./images/Ceramics/headsglazed.jpg";
-import brainProcess from "./images/Ceramics/brainprocess.jpeg";
-import brainArmy from "./images/Ceramics/brainarmy.jpeg";
-import brains from "./images/Ceramics/brains.jpeg";
-import lady from "./images/Ceramics/lady.jpeg";
-import squid from "./images/Ceramics/squid.jpeg";
-import squidMe from "./images/Ceramics/squidme.jpeg";
-import wheel from "./images/Ceramics/wheel.jpeg";
-import cups from "./images/Ceramics/cups.jpeg";
+import alien from "./Ceramics/alien.jpg";
+import atlantian from "./Ceramics/atlantian.jpg";
+import bunnyHead from "./Ceramics/bunnyhead.jpeg";
+import bunny from "./Ceramics/bunny.jpeg";
+import bunnyBowl from "./Ceramics/bunnybowl.jpeg";
+import headsEggs from "./Ceramics/headseggs.jpeg";
+import headsMr from "./Ceramics/headmr.jpeg";
+import headsTwo from "./Ceramics/headstwo.jpeg";
+import heads from "./Ceramics/heads.jpeg";
+import headsGlazed from "./Ceramics/headsglazed.jpg";
+import brainProcess from "./Ceramics/brainprocess.jpeg";
+import brainArmy from "./Ceramics/brainarmy.jpeg";
+import brains from "./Ceramics/brains.jpeg";
+import lady from "./Ceramics/lady.jpeg";
+import squid from "./Ceramics/squid.jpeg";
+import squidMe from "./Ceramics/squidme.jpeg";
+import wheel from "./Ceramics/wheel.jpeg";
+import cups from "./Ceramics/cups.jpeg";
 
-const ceramics = [
+export const ceramics = [
   {
     index: 0,
     imagePath: alien,
