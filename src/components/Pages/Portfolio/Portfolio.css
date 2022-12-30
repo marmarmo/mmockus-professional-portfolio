@@ -1,7 +1,9 @@
-.cards {
-	margin: 35px;
-	margin-bottom: 20px;
-	padding: 70px;
-	justify-content: space-between;
-	width: 100%;
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+	background: black;
+};
+.carousel-indicators {
+	display: none;
 }

@@ -4,12 +4,11 @@ import Nav from "react-bootstrap/Nav";
 import { useState, useEffect } from "react";
 import marmologo from "../assets/images/Logos/marmologo.png";
 import "./Styles/Header.css";
-// import github from "../assets/images/Logos/github-mark.png";
-// import mail from "../assets/images/Logos/envelope.png";
-// import linkedin from "../assets/images/Logos/linkedin.png";
-import { TiSocialLinkedinCircular, TiMail, TiSocialGithubCircular } from "react-icons/ti";
+import {
+  TiSocialLinkedinCircular,
+  TiSocialGithubCircular,
+} from "react-icons/ti";
 import { ImMail4 } from "react-icons/im";
-
 
 export default function NavBar({ activeLink, setActiveLink }) {
   const [scrolled, setScrolled] = useState(false);
@@ -48,7 +47,6 @@ export default function NavBar({ activeLink, setActiveLink }) {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-
             <Nav.Link
               href="/"
               className={
@@ -62,9 +60,7 @@ export default function NavBar({ activeLink, setActiveLink }) {
             <Nav.Link
               href="/Profile"
               className={
-                activeLink === "profile"
-                  ? "active navbar-link"
-                  : "navbar-link"
+                activeLink === "profile" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("portfolio")}
             >
@@ -113,37 +109,25 @@ export default function NavBar({ activeLink, setActiveLink }) {
             </Nav.Link>
           </Nav>
           <div className="social-icons">
-          {/* find sourced social media icons to add */}
-          <a 
-          title="LinkedIn"
-          href="https://www.linkedin.com/in/marlamockus/">
-                {/* <img src={linkedin} alt="icon" width={50} /> */}
-              <TiSocialLinkedinCircular size={65} color="grey"/>
-              </a>
-              <a 
-              title="Email"
-              href="mailto:marlamockus@gmail.com">
-                {/* <img src={mail} alt="icon" width={50}/> */}
-                <ImMail4 size={50} color="grey"/>
-              </a>
-              <a 
-              title="GitHub"
-              href="https://github.com/MMockus15">
-                {/* <img src={github} alt="icon" width={50} /> */}
-                <TiSocialGithubCircular size={65} color="grey"/>
-              </a>
-            </div>
+            {/* find sourced social media icons to add */}
+            <a title="LinkedIn" href="https://www.linkedin.com/in/marlamockus/">
+              <TiSocialLinkedinCircular size={65} color="grey" />
+            </a>
+            <a title="Email" href="mailto:marlamockus@gmail.com">
+              <ImMail4 size={50} color="grey" />
+            </a>
+            <a title="GitHub" href="https://github.com/MMockus15">
+              <TiSocialGithubCircular size={65} color="grey" />
+            </a>
+          </div>
           <span className="navbar-text">
-            <a
-              href="/Contact"
-              // className={
-              //   activeLink === "podcast" ? "active navbar-link" : "navbar-link"
-              // }
-              
-            >
-            <button className="vvd" onClick={() => onUpdateActiveLink("connect")}>
-              Let's Connect
-            </button>
+            <a href="/Contact">
+              <button
+                className="vvd"
+                onClick={() => onUpdateActiveLink("connect")}
+              >
+                Let's Connect
+              </button>
             </a>
           </span>
         </Navbar.Collapse>
