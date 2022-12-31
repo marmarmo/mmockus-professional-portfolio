@@ -2,7 +2,7 @@
     position: relative;
     left: auto;
     right: auto;
-	background: black;
+	background: var(--dark);
 };
 .carousel-indicators {
 	display: none;

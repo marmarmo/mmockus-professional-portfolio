@@ -39,16 +39,16 @@ export default function Skills() {
     from: { size: "20%", background: "black", text: "white" },
     to: {
       size: open ? "100%" : "20%",
-      background: open ? "white" : "black",
+      background: open ? "var(--orange)" : "black",
     },
   });
   const transApi = useSpringRef();
   const transition = useTransition(open ? data : [], {
     ref: transApi,
-    trail: 400 / data.length,
-    from: { opacity: 0, scale: 0 },
-    enter: { opacity: 1, scale: 1 },
-    leave: { opacity: 0, scale: 0 },
+    // trail: 0 / data.length,
+    // from: { opacity: 0, scale: 0 },
+    // enter: { opacity: 1, scale: 0 },
+    // leave: { opacity: 0, scale: 0 },
   });
 
   // This will orchestrate the two animations above, comment the last arg and it creates a sequence
@@ -64,7 +64,7 @@ export default function Skills() {
         className={styles.container}
         
       >
-        <p onClick={() => set((open) => !open)}>x</p>
+        <p className= "exit" onClick={() => set((open) => !open)}>&times;</p>
         {transition((style, item) => (
           <animated.div
             className={styles.item}
@@ -72,13 +72,13 @@ export default function Skills() {
           />
         ))}
         {open ? (<div className="skillsText">
-          <div>
+          <div className= "mySkills">
             <ReactTypingEffect
-              element={"h3"}
+              element={"header"}
               text={'My Skills...'}
             />
           </div>
-          <div>
+          <div className= "skillsText">
             <p>
               HTML <FaHtml5 />
             </p>
@@ -113,7 +113,7 @@ export default function Skills() {
               Git <FaGithubAlt />
             </p>
           </div>
-        </div>): (<button style={{backgroundColor: 'white', color: 'blue'}} onClick={() => set((open) => !open)}>click me</button>)}
+        </div>): (<button className= "button" style={{backgroundColor: 'black', color: 'var(--peach)'}} onClick={() => set((open) => !open)}>👉 click to open skills</button>)}
       </animated.div>
     </div>
   );

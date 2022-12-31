@@ -20,26 +20,7 @@
 	src: url("./assets/font/AlexandriaFLF.ttf");
 	font-weight: normal;
   }
-  /* @font-face {
-	font-family: "Kelvinch";
-	src: url("./assets/font/Kelvinch-Bold.otf");
-	font-weight: normal;
-  }
-  @font-face {
-	font-family: "Kelvinch";
-	src: url("./assets/font/Kelvinch-BoldItalic.otf");
-	font-weight: normal;
-  }
-  @font-face {
-	font-family: "Kelvinch";
-	src: url("./assets/font/Kelvinch-Italic.otf");
-	font-weight: normal;
-  }
-  @font-face {
-	font-family: "Kelvinch";
-	src: url("./assets/font/Kelvinch-Roman.otf");
-	font-weight: normal;
-  } */
+
   
   /* Default CSS */
   * {

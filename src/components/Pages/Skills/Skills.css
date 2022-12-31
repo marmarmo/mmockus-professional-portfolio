@@ -29,3 +29,26 @@ body {
   justify-content: center;
   text-align: center;
 }
+
+.button {
+border-style: none;
+margin-left: -95px;
+width: 160px;
+}
+
+.mySkills {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  margin-left: -160px;
+}
+
+.skillsText {
+  margin-left: -160px;
+}
+
+.exit {
+  font-size: 30px;
+  margin-right: 200px;
+}
