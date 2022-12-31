@@ -36,10 +36,10 @@ export default function Skills() {
   const { size, ...rest } = useSpring({
     ref: springApi,
     config: config.stiff,
-    from: { size: "20%", background: "black", text: "white" },
+    from: { size: "20%", background: "var(--dark)", text: "white" },
     to: {
       size: open ? "100%" : "20%",
-      background: open ? "var(--orange)" : "black",
+      background: open ? "var(--orange)" : "var(--dark)",
     },
   });
   const transApi = useSpringRef();
@@ -113,7 +113,7 @@ export default function Skills() {
               Git <FaGithubAlt />
             </p>
           </div>
-        </div>): (<button className= "button" style={{backgroundColor: 'black', color: 'var(--peach)'}} onClick={() => set((open) => !open)}>👉 click to open skills</button>)}
+        </div>): (<button className= "button" style={{backgroundColor: 'var(--dark)', color: 'var(--tan)'}} onClick={() => set((open) => !open)}> 👆 </button>)}
       </animated.div>
     </div>
   );

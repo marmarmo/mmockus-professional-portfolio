@@ -6,16 +6,16 @@
 };
 
 .projectLinks {
-    color: var(--orange) !important;
+    color: var(--peach) !important;
 }
 a {
-    color: var(--orange);
+    color: var(--peach);
     display: inline-block;
     font-size: 20px;
     text-decoration: none;
 }
 a:hover {
-    color: var(--peach);
+    color: var(--orange);
 } 
 
 .projectLabel {

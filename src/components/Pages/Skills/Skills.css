@@ -34,10 +34,11 @@ body {
 border-style: none;
 margin-left: -95px;
 width: 160px;
+font-size: 25px;
 }
 
 .mySkills {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
   padding: 20px;
   text-align: center;
@@ -46,9 +47,11 @@ width: 160px;
 
 .skillsText {
   margin-left: -160px;
+  font-size: 25px;
 }
 
 .exit {
-  font-size: 30px;
+  font-size: 40px;
   margin-right: 200px;
+  color: var(--dark);
 }

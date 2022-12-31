@@ -4,7 +4,7 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <div className="container" style={{'top':"2000"}}>
-      <h1>FormSubmit Demo</h1>
+      <h1>Contact Me!</h1>
       <form
         target="_blank"
         action="https://formsubmit.co/marlamockus@gmail.com"
