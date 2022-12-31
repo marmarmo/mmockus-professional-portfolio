@@ -9,6 +9,7 @@ import {
   TiSocialGithubCircular,
 } from "react-icons/ti";
 import { ImMail4 } from "react-icons/im";
+// import { GrResume } from "react-icons/gr";
 
 export default function NavBar({ activeLink, setActiveLink }) {
   const [scrolled, setScrolled] = useState(false);
@@ -109,7 +110,10 @@ export default function NavBar({ activeLink, setActiveLink }) {
             </Nav.Link>
           </Nav>
           <div className="social-icons">
-            {/* find sourced social media icons to add */}
+
+            {/* <a title="Resume" href="https://www.linkedin.com/in/marlamockus/">
+              <GrResume size={50} color="grey" />
+            </a> */}
             <a title="LinkedIn" href="https://www.linkedin.com/in/marlamockus/">
               <TiSocialLinkedinCircular size={65} color="grey" />
             </a>
