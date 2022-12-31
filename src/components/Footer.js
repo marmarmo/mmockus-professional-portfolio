@@ -16,7 +16,7 @@ export default function Footer () {
   return (
     <>
       <CDBContainer>
-        <CDBFooter className="footerEl fixed-bottom">
+        <CDBFooter className="footerEl">
           <CDBBox
             display="flex"
             flex="column"

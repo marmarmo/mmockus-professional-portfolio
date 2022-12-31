@@ -18,9 +18,9 @@ export default function profilePage() {
       </div>
       <Card.ImgOverlay>
         <Card.Title style={{fontSize: "100px", fontWeight: "bold"}}>Marla Mockus</Card.Title>
-        <Card.Title style={{fontSize: "60px", color: "white"}}>About Me:</Card.Title>
         <Card.Text style={{fontSize: "25px"}}>
-          Hi! My name is Marla. I am a full stack web developer located in Longmont, CO. My background is in studio art with an emphasis in ceramics. If you want to take a peak at some of my ceramic works, check out my Art page! Music is my happy place and I frequently make playlists that seem to help me navigate life. I also have a podcast called "Mornings with Marla." It's a podcast about how to cultivate more joy in the mundane. I thrive when I am learning an growing both in my personal and professional life. When I am passionate about something I dive in to learn and become an expert in that field. When I am not coding, you can find me in the ceramic studio, practicing guitar, traveling to new countries, and hanging out with my fur babies.
+        <Card.Title style={{fontSize: "50px", color: "white"}}>About Me:</Card.Title>
+          Hi! My name is Marla. I am a full stack web developer located in Longmont, CO. My background is in studio art with an emphasis in ceramics. If you want to take a peak at some of my ceramic works, check out my Art page! Music is my happy place and I frequently make playlists that seem to help me navigate life. I also have a podcast called "Mornings with Marla." It's a podcast about how to cultivate more joy in the mundane. I thrive when I am learning and growing both in my personal and professional life. When I am passionate about something I dive in to learn and become an expert in that field. When I am not coding, you can find me in the ceramic studio, practicing guitar, traveling to new countries, and hanging out with my fur babies.
         </Card.Text>
         <div className="scrollQuote">
         <p id="text"></p>
