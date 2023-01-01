@@ -23,6 +23,10 @@ a:hover {
     margin-right: 100px;
 }
 
+.carousel-indicators {
+    display: none !important;
+  }
+
 @media only screen and (max-width: 375px) {
  .d-block {
     width: 65% !important;
