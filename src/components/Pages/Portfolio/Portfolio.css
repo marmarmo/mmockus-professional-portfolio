@@ -22,3 +22,23 @@ a:hover {
     margin-left: 100px;
     margin-right: 100px;
 }
+
+@media only screen and (max-width: 375px) {
+ .d-block {
+    width: 65% !important;
+ }
+ .carousel-caption {
+    width: 65% !important;
+    font-size: 15px !important;
+ }
+ .carousel-indicators {
+    width: 5% !important;
+ }
+ .carousel-control-prev-icon {
+    width: 1rem !important;
+ }
+ .carousel-control-next-icon {
+    width: 1rem !important;
+ }
+  }
+  

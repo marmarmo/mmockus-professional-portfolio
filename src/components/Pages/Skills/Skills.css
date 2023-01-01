@@ -55,3 +55,56 @@ font-size: 25px;
   margin-right: 200px;
   color: var(--dark);
 }
+
+@media only screen and (max-width: 600px) {
+  .mySkills {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    margin-left: -65px;
+  }
+
+  .skillsText {
+    margin-left: -80px;
+    font-size: 20px;
+  }
+
+  .exit {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+
+  .button {
+    border-style: none;
+    margin-left: -110px;
+    width: 40px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .mySkills {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    margin-left: -180px;
+  }
+
+  .skillsText {
+    margin-left: -150px;
+    font-size: 20px;
+  }
+
+  .exit {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+
+  .button {
+    border-style: none;
+    margin-left: -135px;
+    width: 40px;
+    font-size: 20px;
+  }
+}

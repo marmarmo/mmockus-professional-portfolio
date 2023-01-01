@@ -108,7 +108,17 @@ export default function NavBar({ activeLink, setActiveLink }) {
             >
               Podcast
             </Nav.Link>
+            <Nav.Link
+              href="/Resume"
+              className={
+                activeLink === "resume" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("resume")}
+            >
+              Resume
+            </Nav.Link>
           </Nav>
+          
           <div className="social-icons">
 
             {/* <a title="Resume" href="https://www.linkedin.com/in/marlamockus/">
