@@ -1,0 +1,19 @@
+.card {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.card-body {
+	margin: 4px;
+	padding-top: 50px;
+}
+
+.card-text {
+	margin-top: 2px;
+}
+
+.btn {
+	color: var(--peach);
+	background: var(--dark);
+}

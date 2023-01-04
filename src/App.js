@@ -11,6 +11,7 @@ import ArtWork from "./components/Pages/Art/ArtWork";
 import Podcast from "./components/Pages/Podcast/Podcast";
 import { Routes, Route } from "react-router-dom";
 import Contact from "./components/Pages/Contact/Contact";
+import Resume from "./components/Pages/Resume/Resume";
 
 function App() {
   const [activeLink, setActiveLink] = useState("home");
@@ -26,6 +27,7 @@ function App() {
           <Route path="/ArtWork" element={<ArtWork />} />
           <Route path="/Podcast" element={<Podcast />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Resume" element={<Resume />} />
         </Routes>
         {/* <Main />
         <Portfolio />

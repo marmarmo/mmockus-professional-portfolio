@@ -62,7 +62,7 @@
   }
 
   .navbar-text button:hover::before {
-	content: "";
+	content: "click";
 	width: 100%;
 	height: 100%;
 	position: absolute;

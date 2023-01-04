@@ -13,7 +13,7 @@ export const projects = [
     title: "Gopher A Friend",
     description:
       " Gopher a Friend is a place for kids to discuss their interests with other kids that share those interests. An 8 year old kid who is obsessed with Uzbekistan is unlikely to find another kid that even knows that the country exists let alone wants to talk about it. Gopher a Friend is the place where that kid can find the 10 other kids spread across the country who are also enthralled with Uzbekistan and can talk about it and learn from each other.",
-      gitHub: "https://github.com/madisenvo/Gopher-a-Friend",
+      gitHub: "https://github.com/MMockus15/Gopher-a-Friend",
       appLink: "https://gopher-a-friend.herokuapp.com/profile"
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     title: "Rainbow Chasers",
     description:
       "A tracker app made fun! Keep track of rainbows in your area, while finding and pinning them to a map with a custom playlist. For this App we used Mapbox API and Genius API. The user is able to click their location on a map anywhere in the world they are currently viewing a rainbow. The app allows you to track your cordinates and drop a pin when you are viewing a rainbow. It then generates a random Rainbow Kitten Surprise song for you to play as a rainbow spotting prize!",
-      gitHub: "https://github.com/seanmgrant/Project1-T5-Rainbow-Chaser",
+      gitHub: "https://github.com/MMockus15/Project1-T5-Rainbow-Chaser",
       appLink: "https://seanmgrant.github.io/Project1-T5-Rainbow-Chaser/"
   },
   {
