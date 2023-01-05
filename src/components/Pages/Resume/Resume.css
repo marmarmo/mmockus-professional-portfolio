@@ -1,19 +1,35 @@
-.card {
+.resumeCard {
 	margin-top: 50px;
-	display: flex;
-	justify-content: center;
+	/* display: flex; */
+	/* flex-direction: column !important; */
+	/* align-items: space-around !important; */
+	/* justify-content: center !important; */
+	margin-left: 400px;
 }
 
-.card-body {
-	margin: 4px;
-	padding-top: 50px;
+.resumeTitle {
+	font-size: 30px !important;
+	padding: 20px;
+	background: var(--tan);
+	border-radius: 2px;
 }
 
-.card-text {
+.resumeBody {
+	padding-top: 30px;
+	background: var(--tan);
+	border-radius: 2px;
+}
+
+/* .card-text {
 	margin-top: 2px;
-}
+	margin: 1rem !important;
+} */
 
 .btn {
 	color: var(--peach);
 	background: var(--dark);
+}
+
+.btn:hover {
+	background: var(--orange);
 }

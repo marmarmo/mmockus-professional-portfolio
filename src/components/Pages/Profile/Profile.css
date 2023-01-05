@@ -14,8 +14,8 @@
 	  color: var(--white);
 	  padding: 0 3rem;
 	  margin: 10rem;
-	  margin-top: 25rem;
-	  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+	  margin-top: 25rem !important;
+	  /* transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  */
 	  font-family: "AlexandriaFLF";
 	  font-weight: 700;
 	  line-height: 2;
@@ -37,8 +37,8 @@
 	  display: grid;
 	  height: 100vh;
 	  place-items: center;
-  }
-   */
+  } */
+  
 
 @media only screen and (max-width: 600px) {
   .card-text {

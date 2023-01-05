@@ -7,13 +7,13 @@ import Card from 'react-bootstrap/Card';
 
 export default function Resume() {
 	return (
-		<Card style={{ width: '40rem' }}>
-		<Card.Body>
-		  <Card.Title>MarMo Resume</Card.Title>
+		<Card className="resumeCard" style={{ width: '40rem' }}>
+		  <Card.Title className="resumeTitle">MarMo's Resume</Card.Title>
 		<Card.Img variant="top" src = {resume1} />
-		  <Card.Text>
+		<Card.Body className="resumeBody">
+		  {/* <Card.Text>
 			BLUB
-		  </Card.Text>
+		  </Card.Text> */}
 		  <Button >Download</Button>
 		</Card.Body>
 	  </Card>
