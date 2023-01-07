@@ -1,5 +1,6 @@
 {
   "name": "mockus-professional-portfolio",
+  "homepage": "https://MMockus15.github.io/mmockus-professional-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,10 +13,12 @@
     "cdbreact": "^1.5.3",
     "chart.js": "^4.0.1",
     "framer-motion": "^8.0.2",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-chartjs-2": "^5.0.1",
     "react-dom": "^18.2.0",
+    "react-hash-router": "^0.2.0",
     "react-icons": "^4.7.1",
     "react-pdf": "^6.2.1",
     "react-router-dom": "^6.4.5",
@@ -28,6 +31,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
