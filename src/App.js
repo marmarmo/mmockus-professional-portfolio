@@ -12,6 +12,7 @@ import Podcast from "./components/Pages/Podcast/Podcast";
 import { Routes, Route } from "react-router-dom";
 import Contact from "./components/Pages/Contact/Contact";
 import Resume from "./components/Pages/Resume/Resume";
+import { HashRouter } from "react-router-dom";
 
 function App() {
   const [activeLink, setActiveLink] = useState("home");
@@ -19,6 +20,7 @@ function App() {
     <>
       <div className="App">
         <Header activeLink={activeLink} setActiveLink={setActiveLink} />
+        <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Profile" element={<Profile />} />
@@ -29,6 +31,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Resume" element={<Resume />} />
         </Routes>
+        </HashRouter>
         {/* <Main />
         <Portfolio />
         <Skills />
