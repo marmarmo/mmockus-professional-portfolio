@@ -1,9 +1,6 @@
 import React from "react";
 import "./Resume.css";
 import resume1 from "./resume1.png";
-// import resumePdf from "./Marla_Mockus_Resume.pdf";
-// import Button from 'react-bootstrap/Button';
-// import Link from "react-bootstrap/Link";
 import Card from 'react-bootstrap/Card';
 
 export default function Resume() {
