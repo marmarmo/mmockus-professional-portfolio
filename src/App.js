@@ -20,6 +20,7 @@ function App() {
       <div className="App">
         <Header activeLink={activeLink} setActiveLink={setActiveLink} />
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Portfolio" element={<Portfolio />} />
           <Route path="/Skills" element={<Skills />} />
@@ -27,7 +28,6 @@ function App() {
           <Route path="/Podcast" element={<Podcast />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Resume" element={<Resume />} />
-          <Route path="/" element={<Home />} />
         </Routes>
         {/* <Main />
         <Portfolio />
