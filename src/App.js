@@ -9,7 +9,7 @@ import Portfolio from "./components/Pages/Portfolio/Portfolio";
 import Skills from "./components/Pages/Skills/Skills";
 import ArtWork from "./components/Pages/Art/ArtWork";
 import Podcast from "./components/Pages/Podcast/Podcast";
-import { Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Contact from "./components/Pages/Contact/Contact";
 import Resume from "./components/Pages/Resume/Resume";
 
@@ -18,6 +18,7 @@ function App() {
   return (
     <>
       <div className="App">
+        <HashRouter>
         <Header activeLink={activeLink} setActiveLink={setActiveLink} />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -35,6 +36,7 @@ function App() {
         <ArtWork />
         <Podcast /> */}
         <Footer />
+        </HashRouter>
       </div>
     </>
   );
