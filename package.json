@@ -1,6 +1,6 @@
 {
   "name": "mockus-professional-portfolio",
-  "homepage": "https://MMockus15.github.io/mmockus-professional-portfolio/#",
+  "homepage": "mmockus-professional-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
