@@ -1,7 +1,7 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 import "./Profile.css";
-import profImg from "./src/assets/images/img1.png";
+import profImg from "./headshot/img1.png";
 
 // import { ParallaxBanner } from 'react-scroll-parallax';
 
