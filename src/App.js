@@ -1,5 +1,5 @@
 // import logo from '../assets/images/logo.png';
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -9,17 +9,17 @@ import Portfolio from "./components/Pages/Portfolio/Portfolio";
 import Skills from "./components/Pages/Skills/Skills";
 import ArtWork from "./components/Pages/Art/ArtWork";
 import Podcast from "./components/Pages/Podcast/Podcast";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./components/Pages/Contact/Contact";
 import Resume from "./components/Pages/Resume/Resume";
 
 function App() {
-  const [activeLink, setActiveLink] = useState("home");
+  // const [activeLink, setActiveLink] = useState("home");
   return (
-    <>
-    {/* <Router> */}
-      <div className="App">
-        <Header activeLink={activeLink} setActiveLink={setActiveLink} />
+    <BrowserRouter>
+      {/* <div className="App">
+        <Header activeLink={activeLink} setActiveLink={setActiveLink} /> */}
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Profile" element={<Profile />} />
@@ -36,9 +36,8 @@ function App() {
         <ArtWork />
         <Podcast /> */}
         <Footer />
-      </div>
-      {/* </Router> */}
-    </>
+      {/* </div> */}
+    </BrowserRouter>
   );
 }
 

@@ -50,9 +50,9 @@ export default function NavBar({ activeLink, setActiveLink }) {
           <Nav className="me-auto">
             <Nav.Link
               href="/"
-              className={
-                activeLink === "home" ? "active navbar-link" : "navbar-link"
-              }
+              // className={
+              //   activeLink === "home" ? "active navbar-link" : "navbar-link"
+              // }
               onClick={() => onUpdateActiveLink("home")}
             >
               Home
@@ -60,9 +60,9 @@ export default function NavBar({ activeLink, setActiveLink }) {
 
             <Nav.Link
               href="/Profile"
-              className={
-                activeLink === "profile" ? "active navbar-link" : "navbar-link"
-              }
+              // className={
+              //   activeLink === "profile" ? "active navbar-link" : "navbar-link"
+              // }
               onClick={() => onUpdateActiveLink("portfolio")}
             >
               Profile
@@ -70,11 +70,11 @@ export default function NavBar({ activeLink, setActiveLink }) {
 
             <Nav.Link
               href="/Portfolio"
-              className={
-                activeLink === "portfolio"
-                  ? "active navbar-link"
-                  : "navbar-link"
-              }
+              // className={
+              //   activeLink === "portfolio"
+              //     ? "active navbar-link"
+              //     : "navbar-link"
+              // }
               onClick={() => onUpdateActiveLink("portfolio")}
             >
               Portfolio
@@ -82,18 +82,18 @@ export default function NavBar({ activeLink, setActiveLink }) {
 
             <Nav.Link
               href="/Skills"
-              className={
-                activeLink === "skills" ? "active navbar-link" : "navbar-link"
-              }
+              // className={
+              //   activeLink === "skills" ? "active navbar-link" : "navbar-link"
+              // }
               onClick={() => onUpdateActiveLink("skills")}
             >
               Skills
             </Nav.Link>
             <Nav.Link
               href="/ArtWork"
-              className={
-                activeLink === "art" ? "active navbar-link" : "navbar-link"
-              }
+              // className={
+              //   activeLink === "art" ? "active navbar-link" : "navbar-link"
+              // }
               onClick={() => onUpdateActiveLink("art")}
             >
               Art
@@ -101,18 +101,18 @@ export default function NavBar({ activeLink, setActiveLink }) {
 
             <Nav.Link
               href="/PodCast"
-              className={
-                activeLink === "podcast" ? "active navbar-link" : "navbar-link"
-              }
+              // className={
+              //   activeLink === "podcast" ? "active navbar-link" : "navbar-link"
+              // }
               onClick={() => onUpdateActiveLink("podcast")}
             >
               Podcast
             </Nav.Link>
             <Nav.Link
               href="/Resume"
-              className={
-                activeLink === "resume" ? "active navbar-link" : "navbar-link"
-              }
+              // className={
+              //   activeLink === "resume" ? "active navbar-link" : "navbar-link"
+              // }
               onClick={() => onUpdateActiveLink("resume")}
             >
               Resume
