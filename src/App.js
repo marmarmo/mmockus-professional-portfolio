@@ -17,7 +17,7 @@ function App() {
   const [activeLink, setActiveLink] = useState("home");
   return (
     <>
-    <Router>
+    {/* <Router> */}
       <div className="App">
         <Header activeLink={activeLink} setActiveLink={setActiveLink} />
         <Routes>
@@ -37,7 +37,7 @@ function App() {
         <Podcast /> */}
         <Footer />
       </div>
-      </Router>
+      {/* </Router> */}
     </>
   );
 }
