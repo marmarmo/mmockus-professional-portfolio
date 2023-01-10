@@ -54,7 +54,7 @@ export default function Skills() {
   // This will orchestrate the two animations above, comment the last arg and it creates a sequence
   useChain(open ? [springApi, transApi] : [transApi, springApi], [
     0,
-    open ? 0.1 : 0.1,
+    open ? 0.2 : 0.1,
   ]);
 
   return (
@@ -78,7 +78,7 @@ export default function Skills() {
               text={'My Skills...'}
             />
           </div>
-          <div className= "skillsText">
+          <div className= "skillsText align-middle">
             <p>
               HTML <FaHtml5 />
             </p>

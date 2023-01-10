@@ -15,11 +15,6 @@
 	border-radius: 2px;
 }
 
-.btn {
-	color: var(--peach);
-	background: var(--dark);
-}
-
 .btn:hover {
 	background: var(--orange);
 }
