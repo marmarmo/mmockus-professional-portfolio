@@ -1,6 +1,7 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 import "./Profile.css";
+import profImg from "./src/assets/images/img1.png";
 
 // import { ParallaxBanner } from 'react-scroll-parallax';
 
@@ -20,7 +21,7 @@ export default function profilePage() {
     
     <Card className="bg-dark text-white">
       <div>
-      <Card.Img  src="/images/Headshot/img1.png" alt="Profile inage hair with chalk dust" width={100} />
+      <Card.Img src={profImg} alt="Profile inage hair with chalk dust" width={100} />
       </div>
       <Card.ImgOverlay>
         <Card.Title style={{fontSize: "100px", fontWeight: "bold"}}>Marla Mockus</Card.Title>
