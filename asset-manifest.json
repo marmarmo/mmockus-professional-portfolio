@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mmockus-professional-portfolio/static/css/main.ac859599.css",
-    "main.js": "/mmockus-professional-portfolio/static/js/main.76c7de98.js",
+    "main.js": "/mmockus-professional-portfolio/static/js/main.44673f27.js",
     "static/media/rainbowchaser.png": "/mmockus-professional-portfolio/static/media/rainbowchaser.53385246f4450b00d9b5.png",
     "static/media/headsglazed.jpg": "/mmockus-professional-portfolio/static/media/headsglazed.7e6809d10c68a1ffe258.jpg",
     "static/media/atlantian.jpg": "/mmockus-professional-portfolio/static/media/atlantian.3944264ff2f6c7b64d77.jpg",
@@ -48,10 +48,10 @@
     "static/media/fa-regular-400.woff2": "/mmockus-professional-portfolio/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/mmockus-professional-portfolio/index.html",
     "main.ac859599.css.map": "/mmockus-professional-portfolio/static/css/main.ac859599.css.map",
-    "main.76c7de98.js.map": "/mmockus-professional-portfolio/static/js/main.76c7de98.js.map"
+    "main.44673f27.js.map": "/mmockus-professional-portfolio/static/js/main.44673f27.js.map"
   },
   "entrypoints": [
     "static/css/main.ac859599.css",
-    "static/js/main.76c7de98.js"
+    "static/js/main.44673f27.js"
   ]
 }
