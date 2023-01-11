@@ -9,7 +9,7 @@ export default function Resume() {
 		  <Card.Title className="resumeTitle">MarMo's Resume</Card.Title>
 		<Card.Img variant="top" src = {resume1} />
 		<Card.Body className="resumeBody">
-		<a className= "d-flex justify-content-center" href="./Marla_Mockus_Resume .pdf" download>Download CV</a>
+		<a className= "d-flex justify-content-center" href="./Marla_Roberts_Resume.pdf" download>Download CV</a>
 		</Card.Body>
 	  </Card>
 	);
