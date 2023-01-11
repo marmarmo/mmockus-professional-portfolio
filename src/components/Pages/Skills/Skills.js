@@ -62,58 +62,67 @@ export default function Skills() {
       <animated.div
         style={{ ...rest, width: size, height: size }}
         className={styles.container}
-        
       >
-        <p className= "exit" onClick={() => set((open) => !open)}>&times;</p>
+        <p className="exit" onClick={() => set((open) => !open)}>
+          &times;
+        </p>
         {transition((style, item) => (
           <animated.div
             className={styles.item}
             style={{ ...style, background: item.css }}
           />
         ))}
-        {open ? (<div className="skillsText">
-          <div className= "mySkills">
-            <ReactTypingEffect
-              element={"header"}
-              text={'My Skills...'}
-            />
+        {open ? (
+          <div className="skillsText">
+            <div className="mySkills">
+              <ReactTypingEffect element={"header"} text={"My Skills..."} />
+            </div>
+            <div className="skillsText">
+              <p>
+                HTML <FaHtml5 />
+              </p>
+              <p>
+                CSS <FaCss3 />
+              </p>
+              <p>
+                JavaScript <SiJavascript />
+              </p>
+              <p>
+                React <FaReact />
+              </p>
+              <p>
+                Node.js <FaNodeJs />
+              </p>
+              <p>
+                Npm <FaNpm />
+              </p>
+              <p>
+                Handlebars <SiHandlebarsdotjs />
+              </p>
+              <p>
+                MySQL <SiMysql />
+              </p>
+              <p>
+                MongoDB <SiMongodb />
+              </p>
+              <p>
+                Sequelize <SiSequelize />
+              </p>
+              <p>
+                Git <FaGithubAlt />
+              </p>
+            </div>
           </div>
-          <div className= "skillsText align-middle">
-            <p>
-              HTML <FaHtml5 />
-            </p>
-            <p>
-              CSS <FaCss3 />
-            </p>
-            <p>
-              JavaScript <SiJavascript />
-            </p>
-            <p>
-              React <FaReact />
-            </p>
-            <p>
-              Node.js <FaNodeJs />
-            </p>
-            <p>
-              Npm <FaNpm />
-            </p>
-            <p>
-              Handlebars <SiHandlebarsdotjs />
-            </p>
-            <p>
-              MySQL <SiMysql />
-            </p>
-            <p>
-              MongoDB <SiMongodb />
-            </p>
-            <p>
-              Sequelize <SiSequelize />
-            </p>
-            <p>
-              Git <FaGithubAlt />
-            </p>
-          </div>
-        </div>): (<button className= "button" style={{backgroundColor: 'var(--dark)', color: 'var(--tan)'}} onClick={() => set((open) => !open)}> 👆 </button>)}
+        ) : (
+          <button
+            className="button"
+            style={{ backgroundColor: "var(--dark)", color: "var(--tan)" }}
+            onClick={() => set((open) => !open)}
+          >
+            {" "}
+            👆{" "}
+          </button>
+        )}
       </animated.div>
     </div>
   );

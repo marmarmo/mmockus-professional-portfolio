@@ -41,7 +41,7 @@ export default function Contact() {
             required
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-lg btn-dark d-flex justify-content-center">
+        <button type="submit" className="btn btn-lg btn-dark btn-block">
           Submit Form
         </button>
       </form>
