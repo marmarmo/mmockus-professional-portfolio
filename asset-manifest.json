@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/mmockus-professional-portfolio/static/css/main.ac859599.css",
-    "main.js": "/mmockus-professional-portfolio/static/js/main.1e1f8fc5.js",
+    "main.css": "/mmockus-professional-portfolio/static/css/main.0039ea1e.css",
+    "main.js": "/mmockus-professional-portfolio/static/js/main.faf29dc4.js",
+    "static/media/img1.png": "/mmockus-professional-portfolio/static/media/img1.828ca367e7b3cebf8b19.png",
     "static/media/rainbowchaser.png": "/mmockus-professional-portfolio/static/media/rainbowchaser.53385246f4450b00d9b5.png",
     "static/media/headsglazed.jpg": "/mmockus-professional-portfolio/static/media/headsglazed.7e6809d10c68a1ffe258.jpg",
     "static/media/atlantian.jpg": "/mmockus-professional-portfolio/static/media/atlantian.3944264ff2f6c7b64d77.jpg",
@@ -11,7 +12,6 @@
     "static/media/fa-solid-900.svg": "/mmockus-professional-portfolio/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/mmockus-professional-portfolio/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/gopher-a-friend.png": "/mmockus-professional-portfolio/static/media/gopher-a-friend.6a3de6ff28f4bf427ba4.png",
-    "static/media/resume1.png": "/mmockus-professional-portfolio/static/media/resume1.64e7cfbf3a992a1b7752.png",
     "static/media/marmologo.png": "/mmockus-professional-portfolio/static/media/marmologo.7e45746b08b88b1c2421.png",
     "static/media/wheel.jpeg": "/mmockus-professional-portfolio/static/media/wheel.6ed9bc9a97750f87b75c.jpeg",
     "static/media/squidme.jpeg": "/mmockus-professional-portfolio/static/media/squidme.5bf693e8c0424ae9b381.jpeg",
@@ -36,6 +36,7 @@
     "static/media/brains.jpeg": "/mmockus-professional-portfolio/static/media/brains.45376f23b7d8090d431b.jpeg",
     "static/media/fa-solid-900.woff": "/mmockus-professional-portfolio/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
     "static/media/fa-brands-400.woff": "/mmockus-professional-portfolio/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/resume1.png": "/mmockus-professional-portfolio/static/media/resume1.cc614e404dc6a5fe080f.png",
     "static/media/fa-solid-900.woff2": "/mmockus-professional-portfolio/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
     "static/media/fa-brands-400.woff2": "/mmockus-professional-portfolio/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
     "static/media/AlexandriaFLF-BoldItalic.ttf": "/mmockus-professional-portfolio/static/media/AlexandriaFLF-BoldItalic.12992a23cd74ff39d78e.ttf",
@@ -47,11 +48,11 @@
     "static/media/fa-regular-400.woff": "/mmockus-professional-portfolio/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/fa-regular-400.woff2": "/mmockus-professional-portfolio/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/mmockus-professional-portfolio/index.html",
-    "main.ac859599.css.map": "/mmockus-professional-portfolio/static/css/main.ac859599.css.map",
-    "main.1e1f8fc5.js.map": "/mmockus-professional-portfolio/static/js/main.1e1f8fc5.js.map"
+    "main.0039ea1e.css.map": "/mmockus-professional-portfolio/static/css/main.0039ea1e.css.map",
+    "main.faf29dc4.js.map": "/mmockus-professional-portfolio/static/js/main.faf29dc4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac859599.css",
-    "static/js/main.1e1f8fc5.js"
+    "static/css/main.0039ea1e.css",
+    "static/js/main.faf29dc4.js"
   ]
 }
