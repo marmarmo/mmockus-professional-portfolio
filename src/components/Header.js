@@ -63,7 +63,7 @@ export default function NavBar({ activeLink, setActiveLink }) {
               // className={
               //   activeLink === "profile" ? "active navbar-link" : "navbar-link"
               // }
-              onClick={() => onUpdateActiveLink("portfolio")}
+              // onClick={() => onUpdateActiveLink("portfolio")}
             >
               Profile
             </Nav.Link>
@@ -72,10 +72,10 @@ export default function NavBar({ activeLink, setActiveLink }) {
               href="/Portfolio"
               // className={
               //   activeLink === "portfolio"
-              //     ? "active navbar-link"
+                  // ? "active navbar-link"
               //     : "navbar-link"
               // }
-              onClick={() => onUpdateActiveLink("portfolio")}
+              // onClick={() => onUpdateActiveLink("portfolio")}
             >
               Portfolio
             </Nav.Link>
@@ -85,7 +85,7 @@ export default function NavBar({ activeLink, setActiveLink }) {
               // className={
               //   activeLink === "skills" ? "active navbar-link" : "navbar-link"
               // }
-              onClick={() => onUpdateActiveLink("skills")}
+              // onClick={() => onUpdateActiveLink("skills")}
             >
               Skills
             </Nav.Link>
@@ -94,7 +94,7 @@ export default function NavBar({ activeLink, setActiveLink }) {
               // className={
               //   activeLink === "art" ? "active navbar-link" : "navbar-link"
               // }
-              onClick={() => onUpdateActiveLink("art")}
+              // onClick={() => onUpdateActiveLink("art")}
             >
               Art
             </Nav.Link>
@@ -104,7 +104,7 @@ export default function NavBar({ activeLink, setActiveLink }) {
               // className={
               //   activeLink === "podcast" ? "active navbar-link" : "navbar-link"
               // }
-              onClick={() => onUpdateActiveLink("podcast")}
+              // onClick={() => onUpdateActiveLink("podcast")}
             >
               Podcast
             </Nav.Link>
@@ -113,7 +113,7 @@ export default function NavBar({ activeLink, setActiveLink }) {
               // className={
               //   activeLink === "resume" ? "active navbar-link" : "navbar-link"
               // }
-              onClick={() => onUpdateActiveLink("resume")}
+              // onClick={() => onUpdateActiveLink("resume")}
             >
               Resume
             </Nav.Link>
