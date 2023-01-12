@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 import marmologo from "../assets/images/Logos/marmologo.png";
 import "./Styles/Header.css";
 import {
@@ -9,7 +10,6 @@ import {
   TiSocialGithubCircular,
 } from "react-icons/ti";
 import { ImMail4 } from "react-icons/im";
-
 
 export default function NavBar({ activeLink, setActiveLink }) {
   const [scrolled, setScrolled] = useState(false);
@@ -39,7 +39,7 @@ export default function NavBar({ activeLink, setActiveLink }) {
       // className={scrolled ? "scrolled" : ""}
     >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand to="/">
           <img src={marmologo} alt="logo" width={100} />
         </Navbar.Brand>
 
@@ -48,80 +48,16 @@ export default function NavBar({ activeLink, setActiveLink }) {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link
-              href="/"
-              // className={
-              //   activeLink === "home" ? "active navbar-link" : "navbar-link"
-              // }
-              onClick={() => onUpdateActiveLink("home")}
-            >
-              Home
-            </Nav.Link>
-
-            <Nav.Link
-              href="/Profile"
-              // className={
-              //   activeLink === "profile" ? "active navbar-link" : "navbar-link"
-              // }
-              // onClick={() => onUpdateActiveLink("portfolio")}
-            >
-              Profile
-            </Nav.Link>
-
-            <Nav.Link
-              href="/Portfolio"
-              // className={
-              //   activeLink === "portfolio"
-                  // ? "active navbar-link"
-              //     : "navbar-link"
-              // }
-              // onClick={() => onUpdateActiveLink("portfolio")}
-            >
-              Portfolio
-            </Nav.Link>
-
-            <Nav.Link
-              href="/Skills"
-              // className={
-              //   activeLink === "skills" ? "active navbar-link" : "navbar-link"
-              // }
-              // onClick={() => onUpdateActiveLink("skills")}
-            >
-              Skills
-            </Nav.Link>
-            <Nav.Link
-              href="/ArtWork"
-              // className={
-              //   activeLink === "art" ? "active navbar-link" : "navbar-link"
-              // }
-              // onClick={() => onUpdateActiveLink("art")}
-            >
-              Art
-            </Nav.Link>
-
-            <Nav.Link
-              href="/PodCast"
-              // className={
-              //   activeLink === "podcast" ? "active navbar-link" : "navbar-link"
-              // }
-              // onClick={() => onUpdateActiveLink("podcast")}
-            >
-              Podcast
-            </Nav.Link>
-            <Nav.Link
-              href="/Resume"
-              // className={
-              //   activeLink === "resume" ? "active navbar-link" : "navbar-link"
-              // }
-              // onClick={() => onUpdateActiveLink("resume")}
-            >
-              Resume
-            </Nav.Link>
+            <Link to="/">Home</Link>
+            <Link to="/Profile">Profile</Link>
+            <Link to="/Portfolio">Portfolio</Link>
+            <Link to="/Skills">Skills</Link>
+            <Link to="/ArtWork">Art</Link>
+            <Link to="/PodCast">Podcast</Link>
+            <Link to="/Resume">Resume</Link>
           </Nav>
-          
-          <div className="social-icons">
 
-          
+          <div className="social-icons">
             <a title="LinkedIn" href="https://www.linkedin.com/in/marlamockus/">
               <TiSocialLinkedinCircular size={65} color="grey" />
             </a>
