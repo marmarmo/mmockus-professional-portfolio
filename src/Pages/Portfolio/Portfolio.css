@@ -19,8 +19,8 @@ a:hover {
 } 
 
 .projectLabel {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
 }
 
 .carousel-indicators {
