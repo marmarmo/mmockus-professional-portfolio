@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+
 
 export default function Contact() {
   return (
@@ -41,9 +41,11 @@ export default function Contact() {
             required
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-lg btn-dark btn-block">
+        <div className="d-flex justify-content-center">
+        <button type="submit" className="btn btn-lg btn-dark">
           Submit Form
         </button>
+        </div>
       </form>
     </div>
   );

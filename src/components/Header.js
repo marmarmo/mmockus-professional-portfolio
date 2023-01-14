@@ -47,28 +47,28 @@ export default function NavBar({ activeLink, setActiveLink }) {
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Link to="/">Home</Link>
-            <Link to="/Profile">Profile</Link>
-            <Link to="/Portfolio">Portfolio</Link>
-            <Link to="/Skills">Skills</Link>
-            <Link to="/ArtWork">Art</Link>
-            <Link to="/PodCast">Podcast</Link>
-            <Link to="/Resume">Resume</Link>
+          <Nav className="me-auto nav-link">
+            <Link className="navLink d-flex justify-content-center" to="/">Home</Link>
+            <Link className="navLink d-flex justify-content-center" to="/Profile">Profile</Link>
+            <Link className="navLink d-flex justify-content-center" to="/Portfolio">Portfolio</Link>
+            <Link className="navLink d-flex justify-content-center" to="/Skills">Skills</Link>
+            <Link className="navLink d-flex justify-content-center" to="/ArtWork">Art</Link>
+            <Link className="navLink d-flex justify-content-center" to="/PodCast">Podcast</Link>
+            <Link className="navLink d-flex justify-content-center" to="/Resume">Resume</Link>
           </Nav>
 
-          <div className="social-icons">
+          <div className="social-icons d-flex justify-content-center">
             <a title="LinkedIn" href="https://www.linkedin.com/in/marlamockus/">
               <TiSocialLinkedinCircular size={65} color="grey" />
             </a>
-            <a title="Email" href="mailto:marlamockus@gmail.com">
+            <a className= "email" title="Email" href="mailto:marlamockus@gmail.com">
               <ImMail4 size={50} color="grey" />
             </a>
             <a title="GitHub" href="https://github.com/MMockus15">
               <TiSocialGithubCircular size={65} color="grey" />
             </a>
           </div>
-          <span className="navbar-text">
+          <span className="navbar-text d-flex justify-content-center">
             <a href="/Contact">
               <button
                 className="vvd"

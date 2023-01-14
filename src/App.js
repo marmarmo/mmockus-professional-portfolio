@@ -1,5 +1,3 @@
-// import logo from '../assets/images/logo.png';
-// import { useState, useEffect } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -17,8 +15,6 @@ function App() {
   // const [activeLink, setActiveLink] = useState("home");
   return (
     <BrowserRouter>
-      {/* <div className="App">
-        <Header activeLink={activeLink} setActiveLink={setActiveLink} /> */}
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -30,13 +26,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Resume" element={<Resume />} />
         </Routes>
-        {/* <Main />
-        <Portfolio />
-        <Skills />
-        <ArtWork />
-        <Podcast /> */}
         <Footer />
-      {/* </div> */}
     </BrowserRouter>
   );
 }

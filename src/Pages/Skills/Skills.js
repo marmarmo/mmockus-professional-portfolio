@@ -115,12 +115,12 @@ export default function Skills() {
           </div>
         ) : (
           <button
-            className="button"
+            className="button d-flex justify-content-center"
             style={{ backgroundColor: "var(--dark)", color: "var(--tan)" }}
             onClick={() => set((open) => !open)}
           >
             {" "}
-            👆{" "}
+            Click👆{" "}
           </button>
         )}
       </animated.div>

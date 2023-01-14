@@ -115,7 +115,7 @@ export default function Footer () {
                 </CDBBox>
               </CDBBox>
             </CDBBox> */} 
-            <small className="text-center mt-3">
+            <small className="text-center mt-5">
               &copy; 2022. Marla Mockus.
             </small>
           </CDBBox>
