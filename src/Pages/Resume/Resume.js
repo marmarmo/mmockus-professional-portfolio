@@ -11,7 +11,7 @@ export default function Resume() {
       <Card.Body className="resumeBody">
         <a
           className="d-flex justify-content-center"
-          href="./Marla_Roberts_Resume.pdf"
+          href="https://docs.google.com/document/d/1TDefJ9FoJi418yB2vs2B2zuZKN6Q1hXYLCJAIsO9lzI/edit"
           download
         >
           Download CV
