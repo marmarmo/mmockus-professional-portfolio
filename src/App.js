@@ -12,7 +12,6 @@ import Contact from "./Pages/Contact/Contact";
 import Resume from "./Pages/Resume/Resume";
 
 function App() {
-  // const [activeLink, setActiveLink] = useState("home");
   return (
     <BrowserRouter>
         <Header />

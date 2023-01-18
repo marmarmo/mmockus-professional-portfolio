@@ -68,15 +68,16 @@ export default function NavBar({ activeLink, setActiveLink }) {
               <TiSocialGithubCircular size={65} color="grey" />
             </a>
           </div>
-          <span className="navbar-text d-flex justify-content-center">
-            <a href="/Contact">
-              <button
+          <span className="navbar-text d-flex justify-content-center contactBtn">
+          <Link className="navLink d-flex justify-content-center contactText" to="/Contact">Let's Connect</Link>
+            {/* <a href="/Contact"> */}
+              {/* <button
                 className="vvd"
                 onClick={() => onUpdateActiveLink("connect")}
               >
                 Let's Connect
-              </button>
-            </a>
+              </button> */}
+            {/* </a> */}
           </span>
         </Navbar.Collapse>
       </Container>

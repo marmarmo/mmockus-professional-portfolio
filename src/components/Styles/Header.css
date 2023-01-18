@@ -15,12 +15,6 @@
   font-size: bold;
 }
 
-/*when nav bar scrolled color it shows*/
-/* nav.navbar.scrolled {
-  padding: 0px 0;
-  background-color: black;
-} */
-/*logo*/
 
 .navbar .navbar-nav .nav-link .me-auto {
   font-weight: normal;
@@ -41,7 +35,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:active {
   margin-left: 14px;
 }
 
-.navbar-text button {
+.contactBtn .navbar-text button {
   font-weight: 700;
   color: grey;
   border: 2px solid var(--grey);
@@ -52,10 +46,10 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:active {
   background-color: transparent;
   transition: 0.3s ease-in-out;
 }
-.navbar-text button span {
+.contactBtn .navbar-text button span {
   z-index: 1;
 }
-.navbar-text button::before {
+.contactBtn .contactText .navbar-text button::before {
   content: "";
   width: 0%;
   height: 100%;
@@ -66,12 +60,15 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:active {
   transition: 0.3s ease-in-out;
 }
 
-.navbar-text button:hover::before {
+.contactBtn .contactText .navbar-text button:hover::before {
   content: "click";
   width: 100%;
   height: 100%;
   position: absolute;
 }
+
+
+/* media query corner toggle */
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
   outline: none;
@@ -105,4 +102,24 @@ nav.navbar .navbar-toggler-icon:after {
 
 .email {
   padding-top: 6px;
+}
+
+.contactBtn {
+  margin-left: 18px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+  border: 2px solid var(--grey);
+  /* width: 15%; */
+}
+
+.contactText {
+  font-size: 20px;
+  font-weight: 700;
+  color: grey !important;
+  padding: 0px 15px;
+  margin-left: 18px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
 }
