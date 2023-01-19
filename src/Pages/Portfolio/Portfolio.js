@@ -18,19 +18,30 @@ export default function portfolioCards() {
               alt={project.alt}
             />
             <div>
-            <Carousel.Caption>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              <a className="projectLinks" href={project.gitHub}><p className= "projectLabel" >GitHub</p>
+              <Carousel.Caption>
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <a
+                  className="projectLinks"
+                  href={project.gitHub}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p className="projectLabel">GitHub</p>
                 </a>
-              <a className="projectLinks" href={project.appLink}><p className= "projectLabel" >App</p>
+                <a
+                  className="projectLinks"
+                  href={project.appLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p className="projectLabel">App</p>
                 </a>
-            </Carousel.Caption>
-          </div>
+              </Carousel.Caption>
+            </div>
           </Carousel.Item>
         ))}
       </Carousel>
     </>
   );
 }
-
