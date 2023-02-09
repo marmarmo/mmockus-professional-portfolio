@@ -4,10 +4,21 @@ import mvc from "./Projects/mvc.png";
 import rainbow from "./Projects/rainbowchaser.png";
 import pwa from "./Projects/pwa.png";
 import socialNetwork from "./Projects/socialNetwork.png";
+import turnip from "./Projects/turnip-the-zine.png"
 
 export const projects = [
   {
     index: 0,
+    imagePath: turnip,
+    alt: "A zine for local bands to promote.",
+    title: "Turnip the Zine",
+    description:
+      "Turnip-the-Zine is the DIY site to find the Denver local artists you wish Westword would feature. Each month Trunip features artists who are playing shows within that month. Delivering to you a profile on each artist and a store where you can purchase fee-free tickets to see them live and grab up all the merch you need to show your fandom. Zines are about community, so turnip your thoughts, in our community message board.",
+      gitHub: "https://github.com/MMockus15/Turnip-the-Zine",
+      appLink: "https://turnip-the-zine.herokuapp.com/login"
+  },
+  {
+    index: 1,
     imagePath: gopher,
     alt: "A social website for children to chat in groups about specific blog topics.",
     title: "Gopher A Friend",
@@ -17,7 +28,7 @@ export const projects = [
       appLink: "https://gopher-a-friend.herokuapp.com/profile"
   },
   {
-    index: 1,
+    index: 2,
     imagePath: rainbow,
     alt: "An app to pin and locate rainbows in your area.",
     title: "Rainbow Chasers",
@@ -27,7 +38,7 @@ export const projects = [
       appLink: "https://seanmgrant.github.io/Project1-T5-Rainbow-Chaser/"
   },
   {
-    index: 2,
+    index: 3,
     imagePath: eCommerce,
     alt: "A backend server for an e-commerce business site.",
     title: "e-Commerce Back End",
@@ -37,7 +48,7 @@ export const projects = [
       appLink: "https://drive.google.com/file/d/1Tq9l2ldDkEYN0rIxqYiBfxuYVAbKrrpN/view"
   },
   {
-    index: 3,
+    index: 4,
     imagePath: mvc,
     alt: "An app where developer can add their own and comment on others blog posts.",
     title: "MVC Tech Blog",
@@ -47,7 +58,7 @@ export const projects = [
       appLink: "https://pure-crag-52361.herokuapp.com/"
   },
   {
-    index: 3,
+    index: 5,
     imagePath: socialNetwork,
     alt: "Back end social network API.",
     title: "Social Network API",
@@ -57,7 +68,7 @@ export const projects = [
       appLink: "https://drive.google.com/file/d/1bTlUyNRI7DbaCgjC_vKWJ8nnTyvzpeyz/view"
   },
   {
-    index: 4,
+    index: 6,
     imagePath: pwa,
     alt: "A progressive web application.",
     title: "Progressive Web Application",
