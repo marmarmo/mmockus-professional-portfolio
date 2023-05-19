@@ -48,13 +48,13 @@ export default function NavBar({ activeLink, setActiveLink }) {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto nav-link">
-            <Link className="navLink d-flex justify-content-center" to="/">Home</Link>
-            <Link className="navLink d-flex justify-content-center" to="/Profile">Profile</Link>
-            <Link className="navLink d-flex justify-content-center" to="/Portfolio">Portfolio</Link>
-            <Link className="navLink d-flex justify-content-center" to="/Skills">Skills</Link>
-            <Link className="navLink d-flex justify-content-center" to="/ArtWork">Art</Link>
-            <Link className="navLink d-flex justify-content-center" to="/PodCast">Podcast</Link>
-            <Link className="navLink d-flex justify-content-center" to="/Resume">Resume</Link>
+            <Link className="navLink d-flex justify-content-center" to="/mmockus-professional-portfolio/">Home</Link>
+            <Link className="navLink d-flex justify-content-center" to="/mmockus-professional-portfolio/Profile">Profile</Link>
+            <Link className="navLink d-flex justify-content-center" to="/mmockus-professional-portfolio/Portfolio">Portfolio</Link>
+            <Link className="navLink d-flex justify-content-center" to="/mmockus-professional-portfolio/Skills">Skills</Link>
+            <Link className="navLink d-flex justify-content-center" to="/mmockus-professional-portfolio/ArtWork">Art</Link>
+            <Link className="navLink d-flex justify-content-center" to="/mmockus-professional-portfolio/PodCast">Podcast</Link>
+            <Link className="navLink d-flex justify-content-center" to="/mmockus-professional-portfolio/Resume">Resume</Link>
           </Nav>
 
           <div className="social-icons d-flex justify-content-center">
