@@ -16,14 +16,14 @@ function App() {
     <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Profile" element={<Profile />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
-          <Route path="/Skills" element={<Skills />} />
-          <Route path="/ArtWork" element={<ArtWork />} />
-          <Route path="/Podcast" element={<Podcast />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Resume" element={<Resume />} />
+          <Route path="/mmockus-professional-portfolio/" element={<Home />} />
+          <Route path="/mmockus-professional-portfolio/Profile" element={<Profile />} />
+          <Route path="/mmockus-professional-portfolio/Portfolio" element={<Portfolio />} />
+          <Route path="/mmockus-professional-portfolio/Skills" element={<Skills />} />
+          <Route path="/mmockus-professional-portfolio/ArtWork" element={<ArtWork />} />
+          <Route path="/mmockus-professional-portfolio/Podcast" element={<Podcast />} />
+          <Route path="/mmockus-professional-portfolio/Contact" element={<Contact />} />
+          <Route path="/mmockus-professional-portfolio/Resume" element={<Resume />} />
         </Routes>
         <Footer />
     </BrowserRouter>
