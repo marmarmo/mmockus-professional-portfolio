@@ -11,10 +11,10 @@ export default function Resume() {
       <Card.Body className="resumeBody">
         <a
           className="d-flex justify-content-center"
-          href="https://docs.google.com/document/d/1TDefJ9FoJi418yB2vs2B2zuZKN6Q1hXYLCJAIsO9lzI/edit"
+          href="https://docs.google.com/document/d/1GcJllG1G7ObxRclnpce9QgqNqkIiPem8yY-cpQ4yv1c/edit?usp=sharing"
           download
         >
-          Download CV
+          Download Resume
         </a>
       </Card.Body>
     </Card>
